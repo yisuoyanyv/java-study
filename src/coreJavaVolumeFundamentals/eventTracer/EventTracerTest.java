@@ -1,0 +1,34 @@
+package coreJavaVolumeFundamentals.eventTracer;
+
+import javax.swing.*;
+import java.awt.*;
+
+/**
+ * @author zhangjinglong
+ * @date 2020-03-15-6:21 下午
+ */
+
+public class EventTracerTest {
+    public static void main(String[] args) {
+        EventQueue.invokeLater(() ->
+        {
+            JFrame frame = new EventTracerFrame();
+            frame.setTitle("EventTracerTest");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setVisible(true);
+        });
+    }
+}
+
+class EventTracerFrame extends JFrame {
+    public EventTracerFrame() {
+        // add a slider and a button
+        add(new JSlider(), BorderLayout.NORTH);
+        add(new JButton("Test"), BorderLayout.SOUTH);
+
+        // trap all events of components inside the frame
+        EventTracer tracer = new EventTracer();
+        tracer.add(this);
+        pack();
+    }
+}
