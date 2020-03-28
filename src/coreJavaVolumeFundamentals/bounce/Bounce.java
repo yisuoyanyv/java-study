@@ -1,4 +1,4 @@
-package bounce;
+package coreJavaVolumeFundamentals.bounce;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,9 +6,11 @@ import java.awt.event.ActionListener;
 
 /**
  * Show an animated bouncing ball;
+ *
  * @author zhangjinglong
  * @date 2020-02-11-21:16
- *
+ * <p>
+ * 碰撞的小球
  */
 
 public class Bounce {
@@ -56,7 +58,7 @@ class BounceFrame extends JFrame{
     }
 
     /**
-     * Adds a bouncing ball to the panel and makes it bounce 1,000 times.
+     * Adds a bouncing ball to the panel and makes it coreJavaVolumeFundamentals.bounce 1,000 times.
      */
     public void addBall(){
 

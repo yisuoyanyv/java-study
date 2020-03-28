@@ -1,4 +1,4 @@
-package draw;
+package coreJavaVolumeFundamentals.draw;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,6 +9,8 @@ import java.awt.geom.Rectangle2D;
 /**
  * @author zhangjinglong
  * @date 2020-03-11-10:58 上午
+ *
+ * 简单的几何图形
  */
 
 public class DrawTest {
@@ -44,7 +46,7 @@ class DrawComponet extends JComponent {
     protected void paintComponent(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
 
-        //draw a rectangle
+        //coreJavaVolumeFundamentals.draw a rectangle
         double leftX = 100;
         double topY = 100;
         double width = 200;
@@ -53,15 +55,15 @@ class DrawComponet extends JComponent {
         Rectangle2D rect = new Rectangle2D.Double(leftX, topY, width, height);
         g2.draw(rect);
 
-        //draw the enclosed ellipse
+        //coreJavaVolumeFundamentals.draw the enclosed ellipse
         Ellipse2D ellipse = new Ellipse2D.Double();
         ellipse.setFrame(rect);
         g2.draw(ellipse);
 
-        //draw a diagnoal line
+        //coreJavaVolumeFundamentals.draw a diagnoal line
         g2.draw(new Line2D.Double(leftX, topY, leftX + width, topY + height));
 
-        //draw a circle with the same center
+        //coreJavaVolumeFundamentals.draw a circle with the same center
 
         double centerX = rect.getCenterX();
         double centerY = rect.getCenterY();

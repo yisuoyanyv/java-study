@@ -22,7 +22,7 @@ public class CompoundInterest {
         for (int j = 0; j < balances[0].length; j++) {
             balances[0][j]=10000;
         }
-        //compute interest for future years
+        //compute interest for coreJavaVolumeFundamentals.future years
         for (int i = 1; i < balances.length; i++) {
             for (int j = 0; j < balances[i].length; j++) {
                 //get last year's balances from previous row

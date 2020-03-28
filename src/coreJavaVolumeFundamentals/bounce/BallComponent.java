@@ -1,4 +1,4 @@
-package bounce;
+package coreJavaVolumeFundamentals.bounce;
 
 import javax.swing.*;
 import java.awt.*;

@@ -4,7 +4,7 @@
     <row>
         <cell anchor="EAST">
             <bean>
-                <class>javax.swing.JLabel</class>
+                <class>javax.coreJavaVolumeFundamentals.swing.JLabel</class>
                 <property>
                     <name>text</name>
                     <value>
@@ -15,12 +15,12 @@
         </cell>
         <cell fill="HORIZONTAL" weightx="100">
             <bean id="face">
-                <class>javax.swing.JComboBox</class>
+                <class>javax.coreJavaVolumeFundamentals.swing.JComboBox</class>
             </bean>
         </cell>
         <cell gridheight="4" fill="BOTH" weightx="100" weighty="100">
             <bean id="sample">
-                <class>javax.swing.JTextArea</class>
+                <class>javax.coreJavaVolumeFundamentals.swing.JTextArea</class>
                 <property>
                     <name>text</name>
                     <value>
@@ -43,7 +43,7 @@
                     <name>border</name>
                     <value>
                         <bean>
-                            <class>javax.swing.border.EtchedBorder</class>
+                            <class>javax.coreJavaVolumeFundamentals.swing.border.EtchedBorder</class>
                         </bean>
                     </value>
                 </property>
@@ -53,7 +53,7 @@
     <row>
         <cell anchor="EAST">
             <bean>
-                <class>javax.swing.JLabel</class>
+                <class>javax.coreJavaVolumeFundamentals.swing.JLabel</class>
                 <property>
                     <name>text</name>
                     <value>
@@ -64,14 +64,14 @@
         </cell>
         <cell fill="HORIZONTAL" weightx="100">
             <bean id="size">
-                <class>javax.swing.JComboBox</class>
+                <class>javax.coreJavaVolumeFundamentals.swing.JComboBox</class>
             </bean>
         </cell>
     </row>
     <row>
         <cell gridwidth="2" fill="NONE" weighty="100">
             <bean id="bold">
-                <class>javax.swing.JCheckBox</class>
+                <class>javax.coreJavaVolumeFundamentals.swing.JCheckBox</class>
                 <property>
                     <name>text</name>
                     <value>
@@ -84,7 +84,7 @@
     <row>
         <cell gridwidth="2" fill="NONE" weighty="100">
             <bean id="italic">
-                <class>javax.swing.JCheckBox</class>
+                <class>javax.coreJavaVolumeFundamentals.swing.JCheckBox</class>
                 <property>
                     <name>text</name>
                     <value>

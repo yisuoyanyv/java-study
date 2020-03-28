@@ -65,12 +65,12 @@ class FontCompoent extends JComponent {
         double ascent = -bounds.getY();
         double baseY = y + ascent;
 
-        //draw the message
+        //coreJavaVolumeFundamentals.draw the message
         g2.drawString(message, (int) x, (int) baseY);
 
         g2.setPaint(Color.LIGHT_GRAY);
 
-        //draw the baseline
+        //coreJavaVolumeFundamentals.draw the baseline
         g2.draw(new Line2D.Double(x, baseY, x + bounds.getWidth(), baseY));
 
         //drawing the enclosing rectangle

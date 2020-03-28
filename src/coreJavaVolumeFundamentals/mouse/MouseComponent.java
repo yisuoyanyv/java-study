@@ -41,7 +41,7 @@ public class MouseComponent extends JComponent {
     public void paintComponent(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
 
-        //draw all squares
+        //coreJavaVolumeFundamentals.draw all squares
         for (Rectangle2D r : squares)
             g2.draw(r);
     }
@@ -95,7 +95,7 @@ public class MouseComponent extends JComponent {
 
         @Override
         public void mouseClicked(MouseEvent event) {
-            //remove the current square if double clicked
+            //remove the coreJavaVolumeFundamentals.current square if double clicked
             current = find(event.getPoint());
             if (current != null && event.getClickCount() >= 2) remove(current);
         }
@@ -115,7 +115,7 @@ public class MouseComponent extends JComponent {
                 int x = event.getX();
                 int y = event.getY();
 
-                //drag the current rectangel to center it at (x,y)
+                //drag the coreJavaVolumeFundamentals.current rectangel to center it at (x,y)
                 current.setFrame(x - SIDELENGTH / 2, y - SIDELENGTH / 2, SIDELENGTH, SIDELENGTH);
                 repaint();
             }

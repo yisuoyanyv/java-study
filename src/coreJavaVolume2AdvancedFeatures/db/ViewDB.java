@@ -171,7 +171,7 @@ class ViewDBFrame extends JFrame {
     }
 
     /**
-     * deletes current table row.
+     * deletes coreJavaVolumeFundamentals.current table row.
      */
     public void deleteRow() {
         if (crs == null) return;
@@ -301,7 +301,7 @@ class DataPanel extends JPanel {
     }
 
     /**
-     * Updates changed data into the current row of the row set.
+     * Updates changed data into the coreJavaVolumeFundamentals.current row of the row set.
      *
      * @param rs
      * @throws SQLException

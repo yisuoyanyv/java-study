@@ -25,10 +25,10 @@ public class ThreadPoolTest {
 
         for(;;){
             //不断输出线程池的信息
-//            System.out.println("getActiveCount:"+threadPool.getActiveCount());
-//            System.out.println("getQueueSize:"+threadPool.getQueueSize());
-//            System.out.println("getCoreSize:"+threadPool.getCoreSize());
-//            System.out.println("getMaxSize:"+threadPool.getMaxSize());
+//            System.out.println("getActiveCount:"+coreJavaVolumeFundamentals.threadPool.getActiveCount());
+//            System.out.println("getQueueSize:"+coreJavaVolumeFundamentals.threadPool.getQueueSize());
+//            System.out.println("getCoreSize:"+coreJavaVolumeFundamentals.threadPool.getCoreSize());
+//            System.out.println("getMaxSize:"+coreJavaVolumeFundamentals.threadPool.getMaxSize());
 //            System.out.println("=======================================");
 //            TimeUnit.SECONDS.sleep(5);
 

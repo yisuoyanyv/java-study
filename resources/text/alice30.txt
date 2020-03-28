@@ -1485,7 +1485,7 @@ to find that her neck would bend about easily in any direction,
 like a serpent.  She had just succeeded in curving it down into a
 graceful zigzag, and was going to dive in among the leaves, which
 she found to be nothing but the tops of the trees under which she
-had been wandering, when a sharp hiss made her draw back in a
+had been wandering, when a sharp hiss made her coreJavaVolumeFundamentals.draw back in a
 hurry:  a large pigeon had flown into her face, and was beating
 her violently with its wings.
 
@@ -2197,9 +2197,9 @@ again.  I dare say there may be ONE.'
 
   `One, indeed!' said the Dormouse indignantly.  However, he
 consented to go on.  `And so these three little sisters--they
-were learning to draw, you know--'
+were learning to coreJavaVolumeFundamentals.draw, you know--'
 
-  `What did they draw?' said Alice, quite forgetting her promise.
+  `What did they coreJavaVolumeFundamentals.draw?' said Alice, quite forgetting her promise.
 
   `Treacle,' said the Dormouse, without considering at all this
 time.
@@ -2215,11 +2215,11 @@ good deal worse off than before, as the March Hare had just upset
 the milk-jug into his plate.
 
   Alice did not wish to offend the Dormouse again, so she began
-very cautiously:  `But I don't understand.  Where did they draw
+very cautiously:  `But I don't understand.  Where did they coreJavaVolumeFundamentals.draw
 the treacle from?'
 
-  `You can draw water out of a water-well,' said the Hatter; `so
-I should think you could draw treacle out of a treacle-well--eh,
+  `You can coreJavaVolumeFundamentals.draw water out of a water-well,' said the Hatter; `so
+I should think you could coreJavaVolumeFundamentals.draw treacle out of a treacle-well--eh,
 stupid?'
 
   `But they were IN the well,' Alice said to the Dormouse, not
@@ -2230,7 +2230,7 @@ choosing to notice this last remark.
   This answer so confused poor Alice, that she let the Dormouse
 go on for some time without interrupting it.
 
-  `They were learning to draw,' the Dormouse went on, yawning and
+  `They were learning to coreJavaVolumeFundamentals.draw,' the Dormouse went on, yawning and
 rubbing its eyes, for it was getting very sleepy; `and they drew
 all manner of things--everything that begins with an M--'
 

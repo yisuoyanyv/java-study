@@ -53,7 +53,7 @@ class ImageComponent extends JComponent {
         int imageWidth = image.getWidth(this);
         int imageHeight = image.getHeight(this);
 
-        //draw the image in the upper-left corner
+        //coreJavaVolumeFundamentals.draw the image in the upper-left corner
         g.drawImage(image, 0, 0, null);
 
         //title the image across the component

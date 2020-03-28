@@ -1,4 +1,4 @@
-package forkJoin;
+package coreJavaVolumeFundamentals.forkJoin;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;

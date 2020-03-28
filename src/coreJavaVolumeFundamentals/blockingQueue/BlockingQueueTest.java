@@ -1,4 +1,4 @@
-package blockingQueue;
+package coreJavaVolumeFundamentals.blockingQueue;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +8,9 @@ import java.util.concurrent.BlockingQueue;
 
 
 /**
+ * 知识点：多线程  文件，目录，关键词匹配
  * 程序在一个目录及其它的所有子目录下搜索所有文件，并打印出包含指定关键字的行
+ *
  * @author zhangjinglong
  * @date 2020-02-14-19:32
  */

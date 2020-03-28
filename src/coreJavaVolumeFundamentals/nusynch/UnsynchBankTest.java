@@ -1,4 +1,4 @@
-package nusynch;
+package coreJavaVolumeFundamentals.nusynch;
 
 /**
  * This programe shows data corruption when multiple threads access a data structure.

@@ -1,4 +1,4 @@
-package nusynch;
+package coreJavaVolumeFundamentals.nusynch;
 
 import java.util.Arrays;
 import java.util.concurrent.locks.Condition;

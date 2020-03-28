@@ -71,7 +71,7 @@ public class RectangleCompoent extends JComponent {
         if (rects.size() == 0) newDrawing();
         Graphics2D g2 = (Graphics2D) g;
 
-        //draw all rectangle
+        //coreJavaVolumeFundamentals.draw all rectangle
         for (int i = 0; i < rects.size(); i++) {
             g2.setPaint(colors.get(i));
             g2.fill(rects.get(i));
@@ -79,7 +79,7 @@ public class RectangleCompoent extends JComponent {
     }
 
     /**
-     * Creates an SVG document of the current drawing.
+     * Creates an SVG document of the coreJavaVolumeFundamentals.current drawing.
      *
      * @return the DOM tree of the SVG document.
      */

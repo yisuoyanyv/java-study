@@ -1,6 +1,4 @@
-package swingWorker;
-
-import com.sun.tools.corba.se.idl.StringGen;
+package coreJavaVolumeFundamentals.swingWorker;
 
 import javax.swing.*;
 
