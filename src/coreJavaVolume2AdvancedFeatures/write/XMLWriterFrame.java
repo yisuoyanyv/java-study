@@ -1,7 +1,7 @@
 package coreJavaVolume2AdvancedFeatures.write;
 
 import org.w3c.dom.Document;
-import sun.jvm.hotspot.oops.OopUtilities;
+//import sun.jvm.hotspot.oops.OopUtilities;
 
 import javax.swing.*;
 import javax.xml.crypto.dsig.TransformException;
