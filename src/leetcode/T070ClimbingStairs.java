@@ -32,7 +32,7 @@ public class T070ClimbingStairs {
 
         long startTime=System.currentTimeMillis();
 
-        System.out.println(climbStairs(10000));
+        System.out.println(climbStairs(10));
 //        System.out.println(climbStairs2(10000));
 
 
