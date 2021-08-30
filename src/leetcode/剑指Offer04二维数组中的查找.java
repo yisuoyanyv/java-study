@@ -6,7 +6,7 @@ package leetcode;
  *
  * ps:以左上角为坐标原点，y轴向下，则每个元素的表示为 [y,x],而对应于一个mxn的矩阵，
  */
-public class 二维有序矩阵寻找元素 {
+public class 剑指Offer04二维数组中的查找 {
 
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix.length == 0){
@@ -48,8 +48,8 @@ public class 二维有序矩阵寻找元素 {
                 {18,21,23,26,30}
         };
 
-        System.out.println( new 二维有序矩阵寻找元素().findNumberIn2DArray(matrix,5) );
-        System.out.println( new 二维有序矩阵寻找元素().findNumberIn2DArray(matrix,20) );
+        System.out.println( new 剑指Offer04二维数组中的查找().findNumberIn2DArray(matrix,5) );
+        System.out.println( new 剑指Offer04二维数组中的查找().findNumberIn2DArray(matrix,20) );
 
     }
 }
